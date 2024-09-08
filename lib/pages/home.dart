@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Band(id: '1', name: 'Metallica', votes: 5),
     Band(id: '2', name: 'Queen', votes: 1),
     Band(id: '3', name: 'Héroes del silencio', votes: 2),
-    Band(id: '4', name: 'Bon Jovi', votes: 7),
+    Band(id: '4', name: 'Bon Jovi', votes: 8),
   ];
   @override
   Widget build(BuildContext context) {
