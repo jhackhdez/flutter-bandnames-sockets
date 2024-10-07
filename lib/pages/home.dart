@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
     // }
     // Para un 'StatefulWidget' el context está de manera global. Es accesible desde todo el código
     // Código para que se muestre diálogo con diseño android
-    /*showDialog(
+    /*return showDialog(
       context: context,
       builder: (context) {
         return AlertDialog(
