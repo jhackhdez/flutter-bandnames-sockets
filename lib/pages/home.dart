@@ -4,14 +4,14 @@ import 'package:band_names/models/band.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<HomePage> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomePage> {
   List<Band> bands = [
     Band(id: '1', name: 'Metallica', votes: 5),
     Band(id: '2', name: 'Queen', votes: 1),
