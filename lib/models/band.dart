@@ -11,6 +11,8 @@ class Band {
   // factory constructor: regresa nueva instancia de la clase
   // definiendolo como 'fromMap' recibe obj del tipo definido
   // y retorna nueva instancia de la clase
-  factory Band.fromMap(Map<String, dynamic> obj) =>
-      Band(id: obj['id'], name: obj['name'], votes: obj['votes']);
+  factory Band.fromMap(Map<String, dynamic> obj) => Band(
+      id: obj.containsKey('id') ? obj['id'] : 'no-id',
+      name: obj.containsKey('name') ? obj['name'] : 'no-name',
+      votes: obj.containsKey('votes') ? obj['votes'] : 'no-votes');
 }
